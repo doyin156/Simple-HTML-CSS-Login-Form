@@ -1,0 +1,150 @@
+/********Tablet Devices**********/
+@media screen and (max-width: 768px)
+{
+    .form-container{
+        margin: 15%;
+        margin-top: 1%;
+        margin-left:0%;
+    }
+    /******Mobile Devices(Large)********/
+@media screen and (max-width: 425px)
+{
+    .form-container{
+        width: 200px;
+        height: 350px;
+        margin-left: 0%;
+    }
+    .image-logo{
+        margin-top: 15%;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        margin-left: 66px;
+        margin-bottom: 10px;
+    
+    }
+    p{
+        text-align: center;
+        font-size: 13px;
+    }
+    /**********Login Heading************/
+h3{
+    text-align: center;
+    font-size: 14px;
+  
+}
+
+/********The form*********/
+form{
+    text-align: center;
+}
+/*******The Form Logo Positioning and sizing*********/
+img{
+    width: 75px;
+    height: 75px;
+    position: relative;
+    
+    
+}
+img{
+    position: absolute;
+    left: 66px;
+    top: 30px;
+}
+.user img{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    
+}
+.user img{
+    position: absolute;
+    top: 163px;
+    left: 30px;
+}
+.pass img{
+    width: 10px;
+    height: 10px;
+}
+.pass img{
+    position: absolute;
+    top: 198px;
+    left: 30px;
+}
+input[type=text], input[type=password]{
+    width: 70%;
+    height: 20%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 11px;
+}
+input text{
+    position: relative;
+    
+}
+input text{
+    position: absolute;
+    left: 50px;
+}
+.user img{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    
+}
+.user img{
+    position: absolute;
+    top: 163px;
+    left: 30px;
+}
+.pass img{
+    width: 10px;
+    height: 10px;
+}
+.pass img{
+    position: absolute;
+    top: 198px;
+    left: 30px;
+}
+input[type=checkbox]{
+    position: relative;
+}
+input[type=checkbox]{
+    position: absolute;
+    left: 25px;
+}
+.pee{
+    margin-right: 95px;
+    font-size: 9px;
+    padding-top: 5px;
+    padding-left: 38px;
+}
+/*********The Login Button************/
+button{
+    border-radius: 50px;
+    width: 80px;
+    height: 25px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+     
+}
+
+/*********Signup Option***********/
+.question p{
+    margin-top: 30px;
+    font-size: 9px;
+}
+     
+}
+/*******Mobile Devices(Medium)*********/
+@media screen and (max-width: 375px)
+{
+    .form-container{
+        margin-top: 1%;
+        margin-left: 0%;
+    }
+     
+}

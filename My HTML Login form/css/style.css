@@ -1,0 +1,142 @@
+/*********HTMLBody****************/
+body{
+    margin: 0px;
+    background-image: url(images/skyline.jpg) linear-gradient(rgba(255, 255, 255, 0)), rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+   
+}
+
+/******The main form container*****/
+.form-container{
+    width: 300px;
+    height: 450px;
+    background-image: linear-gradient(#7c4dff, #9400d3); 
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border: none;
+    border-radius: 5px;
+}
+/**********Logo Background************/
+.image-logo{
+    margin-top: 10%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    margin-left: 100px;
+    margin-bottom: 10px;
+
+}
+p{
+    text-align: center;
+    font-size: 13px;
+}
+/**********Login Heading************/
+h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300; 
+    margin-top: 20px; 
+}
+
+/********The form*********/
+form{
+    text-align: center;
+}
+/*******The Form Logo Positioning and sizing*********/
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    
+    
+}
+img{
+    position: absolute;
+    left: 97px;
+    top: 30px;
+}
+
+/*********Form Input fields***********/
+input[type=text], input[type=password]{
+    width: 70%;
+    height: 20%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    align-self: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #fff;
+    text-indent: 20px ;
+}
+input text{
+    position: relative;
+    
+}
+input text{
+    position: absolute;
+    left: 50px;
+}
+.user img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    
+}
+.user img{
+    position: absolute;
+    top: 190px;
+    left: 43px;
+}
+.pass img{
+    width: 15px;
+    height: 15px;
+}
+.pass img{
+    position: absolute;
+    top: 226px;
+    left: 43px;
+}
+input[type=password]{
+    border: 1px solid #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+input[type=checkbox]{
+    position: relative;
+}
+input[type=checkbox]{
+    position: absolute;
+    left: 40px;
+}
+.pee{
+    margin-right: 95px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 0px;
+}
+/*********The Login Button************/
+button{
+    border-radius: 50px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    margin-top: 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+/*******Bottom Paragraph*********/
+.question p{
+    margin-top: 65px;
+    font-size: 10px;
+}
